@@ -52,6 +52,7 @@ Y0=s1′s0′I <br>
 
 
 ## Program:
+```
 1.Multiplexer
 
 module mux(I0,I1,I2,I3,s1,s0,y);
@@ -80,15 +81,24 @@ and(y2,s1,s0d,I);
 and(y1,s1d,s0,I);
 and(y0,s1d,s0d,I);
 endmodule 
-
+```
 ## RTL Schematic:
 
+## 1.Multiplexer:
+![deexp7dia](https://github.com/r-sathish-02/Mux-Demux/assets/118787261/16a44221-d3ea-4694-bebd-d2df5d185927)
 
+## 2.Demultiplexer:
+![deexp7dia2](https://github.com/r-sathish-02/Mux-Demux/assets/118787261/382840a9-5b88-40d4-8eae-8ef68ec44c23)
 
 
 ## Timing Diagram:
+## 1.Multiplexer:
+![deexp7dia3](https://github.com/r-sathish-02/Mux-Demux/assets/118787261/1653c221-6fb8-4608-b364-946006d9236d)
 
 
+## 2.Demultiplexer:
+
+![deexp7dia4](https://github.com/r-sathish-02/Mux-Demux/assets/118787261/e4ecf274-6821-49c1-8474-b19e6bb5bc87)
 
 ## Result:
 Thus the multiplexer and demultiplexer circuits are designed and implemented and the truth tables are verified.
